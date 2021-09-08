@@ -1,0 +1,25 @@
+<p><span style="font-weight: 400;">Our topic proposal topic is &ldquo;To generate the next few frames in a video using Graph neural networks&rdquo;.</span><span style="font-weight: 400;">&nbsp;</span></p>
+<p><span style="font-weight: 400;">Our goal is to determine:-</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">To predict the next few frames of the video using a Graph Neural Network for Spatio-temporal graphs.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">To know about the nodes a few frames later.</span></li>
+</ul>
+<p><span style="font-weight: 400;">In computer science (as we have taught earlier), a graph can be defined as a data structure consisting of two components: nodes (vertices) and edges.</span></p>
+<p><span style="font-weight: 400;">&nbsp;A graph </span><em><span style="font-weight: 400;">G</span></em><span style="font-weight: 400;"> can be defined as </span><em><span style="font-weight: 400;">G = (V, E)</span></em><span style="font-weight: 400;">, where </span><em><span style="font-weight: 400;">V</span></em><span style="font-weight: 400;"> is the set of nodes, and </span><em><span style="font-weight: 400;">E</span></em><span style="font-weight: 400;"> are the edges between them.</span></p>
+<p><span style="font-weight: 400;">A few basic applications of graphs can be thought of as they can represent things like social media networks, or molecules, where we can think of nodes as users, and edges as connections.</span></p>
+<p><span style="font-weight: 400;">GNNs are neural networks that can be directly applied to graphs, and provide an easy way to do node-level, edge-level, and graph-level prediction tasks.</span> <span style="font-weight: 400;">Few applications of GNN are&nbsp; Node classification(</span><span style="font-weight: 400;"> t</span><span style="font-weight: 400;">he task here is to determine the labeling of samples (represented as nodes) by looking at the labels of their neighbors), Graph classification, Graph Visualization, Link Prediction, and Graph clustering, etc.</span></p>
+<p><span style="font-weight: 400;">How will we proceed?</span></p>
+<p><span style="font-weight: 400;">&nbsp;</span><span style="font-weight: 400;">Here we will use Graph Neural Network(GNN) to determine the next few video frames and further about a few frames. The multiple frames add the temporal aspect to the graph. Hence, the graph generated from the number of frames is a Spatio-temporal graph</span></p>
+<p><span style="font-weight: 400;">From the above figure, we can observe that an image can be represented as graphs by dividing the image into regions and the neighboring regions, which are interconnected. The video consists of multiple frames. Using the above methods, the frame can be converted into a graph.&nbsp;&nbsp;</span></p>
+<p><span style="font-weight: 400;">Since a large amount of video data is captured, Video summarizing is used to condense the original video into a summary while preserving the main content. Lots of videos summarizing approaches have been proposed but, a fully convolutional structure on time axis approach has gained significantly.</span></p>
+<p><span style="font-weight: 400;">Forecasting traffic speed, volume or the density of roads in traffic networks is fundamentally important in a smart transportation system. We can address the traffic prediction problem by using STGNNs or STCNs.Considering the traffic network as a spatial-temporal graph where the nodes are sensors installed on roads, the edges are measured by the distance between pairs of nodes, and each node has the average traffic speed within a window as dynamic input features.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Midway through the Project:-</span></p>
+<p><span style="font-weight: 400;">We will try to understand how to implement Graph Neural Network on the extracted frame from the video and also we will try to train the model and predict the few frames of the video for the Spatio-temporal graph.</span></p>
+<p><span style="font-weight: 400;">Relevant Papers:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Bing Yu, Haoteng Yin, Zhanxing Zhu.&nbsp; Spatio -Temporal Graph Convolutional Networks:&nbsp; A Deep Learning Framework for Traffic Forecasting.&nbsp; 10.24963/ijcai.2018/505</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Bin Zhao, Haopeng Li, Xiaoqiang Lu, Xuelong Li.&nbsp; Reconstructive Sequence-Graph Network for Video Summarization.10.1109/TPAMI.2021.3072117.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Rucha Bhalchandra Joshi, Subhankar Mishra.&nbsp; Learning Graph Representations.</span></li>
+</ul>
+<p>&nbsp;</p>
